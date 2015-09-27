@@ -1,0 +1,26 @@
+{
+  "name": "appmanager",
+  "version": "0.0.1",
+  "description": "manages nginx and can be notified about new node apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd ts/compile && gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pushrocks/appmanager.git"
+  },
+  "keywords": [
+    "apps",
+    "domain",
+    "nginx"
+  ],
+  "author": "Smart Coordination GmbH <office@push.rocks> (https://push.rocks)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pushrocks/appmanager/issues"
+  },
+  "homepage": "https://github.com/pushrocks/appmanager",
+  "dependencies": {
+  }
+}
