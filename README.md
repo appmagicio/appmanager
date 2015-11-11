@@ -1,2 +1,2 @@
 # appmanager
-manages nginx and can be notified about new node apps
+This tool manages availablilty of websites using nginx. It is optimised for use with Static Sites.
