@@ -4,7 +4,7 @@
   "description": "manages nginx and can be notified about new node apps",
   "main": "index.js",
   "scripts": {
-    "test": "cd ts/compile && gulp"
+    "test": "(cd ts/compile && node compile.js)"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,10 @@
   },
   "homepage": "https://github.com/pushrocks/appmanager",
   "dependencies": {
+    "pushrocks": "^1.0.18"
+  },
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "gulp-typescript": "2.9.2"
   }
 }

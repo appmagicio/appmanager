@@ -1,12 +1,14 @@
 /// <reference path="typings/tsd.d.ts" />
-var through = require("through2");
+/// <reference path="./appmanager.interfaces.ts" />
+/// <reference path="./appmanager.gulp.ts" />
+/// <reference path="./appmanager.nginx.ts" />
+var gulp = require("gulp");
 var path = require("path");
+var pr = require("pushrocks");
 
-module.exports = (jadeTemplate,mojo = undefined) => {
+var appmanager:any = {};
 
-    return through.obj((file, enc, cb) => {
 
-        //run callback function to signal end of plugin process.
-        return cb(null, file);
-    });
-};
+
+
+module.exports = appmanager;
