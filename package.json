@@ -1,6 +1,6 @@
 {
   "name": "appmanager",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "manages nginx and can be notified about new node apps",
   "main": "index.js",
   "scripts": {
