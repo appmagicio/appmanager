@@ -4,7 +4,7 @@
   "description": "manages nginx and can be notified about new node apps",
   "main": "index.js",
   "scripts": {
-    "test": "(cd ts/compile && node compile.js)",
+    "test": "(npmts)",
     "release": "(git pull origin master && npm version patch && git push origin master && git checkout release && git merge master && git push origin release && git checkout master)"
   },
   "repository": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/pushrocks/appmanager",
   "dependencies": {
-    "pushrocks": "^1.0.18"
+    "npmts": "^1.0.9"
   },
   "devDependencies": {
     "gulp": "3.9.0",
