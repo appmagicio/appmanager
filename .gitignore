@@ -3,8 +3,8 @@ node_modules/
 .idea/
 
 
-#npm devug
+#npmdebug
 npm-debug.log
 
-ts/*.js
-ts/*.js.map
+ts/**/*.js
+ts/**/.js.map
