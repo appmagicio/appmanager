@@ -1,5 +1,5 @@
 # appmanager
-This tool manages availablilty of websites using nginx. It is optimised for use with Static Sites.
+appmanager controls app lifecycles. It will look for new release versions on npm and update apps accordingly.
 
 ### About the authors:
 [![Project Phase](https://mediaserve.lossless.digital/lossless.com/img/createdby_github.svg)](https://lossless.com/)
