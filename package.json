@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/pushrocks/appmanager",
   "dependencies": {
+    "@types/node": "^9.4.0",
     "beautylog": "^6.1.10",
     "smartcli": "^2.0.7"
   },
