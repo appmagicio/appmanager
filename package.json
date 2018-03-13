@@ -1,33 +1,18 @@
 {
   "name": "appmanager",
-  "version": "0.0.4",
-  "description": "low level app manager",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "manage apps inside docker containers",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "author": "Lossless GmbH",
+  "license": "MIT",
   "scripts": {
     "test": "(npmts)",
-    "release": "(git pull origin master && npm version patch && git push origin master && git checkout release && git merge master && git push origin release && git checkout master)"
+    "format": "(gitzone format)"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pushrocks/appmanager.git"
+   "devDependencies": {
+    "tapbundle": "^1.0.13"
   },
-  "keywords": [
-    "apps",
-    "domain",
-    "nginx"
-  ],
-  "author": "Smart Coordination GmbH <office@push.rocks> (https://push.rocks)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pushrocks/appmanager/issues"
-  },
-  "homepage": "https://github.com/pushrocks/appmanager",
   "dependencies": {
-    "@types/node": "^9.4.0",
-    "beautylog": "^6.1.10",
-    "smartcli": "^2.0.7"
-  },
-  "devDependencies": {
-    "tapbundle": "^1.0.12"
   }
 }

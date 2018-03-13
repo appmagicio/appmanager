@@ -1,10 +1,5 @@
+.nogit/
 node_modules/
-.settings/
-.idea/
-
-
-#npmdebug
-npm-debug.log
-
-ts/**/*.js
-ts/**/*.js.map
+coverage/
+public/
+pages/
